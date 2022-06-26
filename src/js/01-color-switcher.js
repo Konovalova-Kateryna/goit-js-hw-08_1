@@ -1,6 +1,7 @@
 const startBtn = document.querySelector('button[data-start]');
 const stopBtn = document.querySelector('button[data-stop]');
 const bodyEl = document.querySelector('body');
+const timerId = 0;
 
 startBtn.addEventListener("click", isStartBtnPush)
 
